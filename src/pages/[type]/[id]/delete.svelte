@@ -1,7 +1,7 @@
 <script>
   export let type;
   export let id;
-  import {params} from '@sveltech/routify'
+  import {params, leftover} from '@sveltech/routify'
   type = $params.type;
 </script>
 
