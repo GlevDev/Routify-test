@@ -12,11 +12,11 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    margin: 1rem;
+    background: #dddddd;
   }
 
   .active {
-    background: rgba(0,0,0,0.3);
+    border-bottom: 2px solid red !important;
   }
 
   .navlink div {
@@ -24,7 +24,11 @@
   }
 
   .navlink div a {
-    padding: 5px;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+    float: left;
   }
 </style>
 
