@@ -8,11 +8,13 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
   .navlink {
     display: flex;
     align-items: center;
     justify-content: left;
-    background: #dddddd;
+    background: #f6f6f6;
   }
 
   .active {
@@ -24,7 +26,12 @@
   }
 
   .navlink div a {
+    padding: 10px;
     text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
     display: block;
     height: 100%;
     border-bottom: 2px solid transparent;
